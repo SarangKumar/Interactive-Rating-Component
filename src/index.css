@@ -149,10 +149,22 @@ p {
 }
 
 .attribution {
+  font-family: Overpass;
+  color: #fff;
+  position: absolute;
+  left: 50%;
+  transform: translateX(-50%);
+  bottom: 0;
   font-size: 11px;
   text-align: center;
+  align-self: center;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
 }
 
 .attribution a {
-  color: hsl(228, 45%, 44%);
+  text-decoration: none;
+  color: hsl(25, 97%, 53%);
 }

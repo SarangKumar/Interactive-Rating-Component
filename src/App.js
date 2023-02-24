@@ -56,8 +56,12 @@ function App() {
       </main>
 
       <div class="attribution">
+      <span>
         Challenge by <a href="https://www.frontendmentor.io?ref=challenge">Frontend Mentor</a>.
+      </span>
+      <span>
         Coded by <a href="/">Your Name Here</a>.
+      </span>
       </div>
     </>
   );
