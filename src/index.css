@@ -1,13 +1,158 @@
+@import url('https://fonts.googleapis.com/css2?family=Overpass:wght@400;500&display=swap');
+
 body {
-  margin: 0;
-  font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', 'Roboto', 'Oxygen',
-    'Ubuntu', 'Cantarell', 'Fira Sans', 'Droid Sans', 'Helvetica Neue',
-    sans-serif;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
+  background-color: hsl(216, 12%, 8%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  height: 100vh;
 }
 
-code {
-  font-family: source-code-pro, Menlo, Monaco, Consolas, 'Courier New',
-    monospace;
+.App {
+  background-color: hsl(213, 19%, 18%);
+  height: 220px;
+  width: 220px;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: Overpass;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+}
+
+.star_svg {
+  height: 12px;
+  width: 12px;
+  padding: 10px;
+  border-radius: 50%;
+  background-color: hsla(216, 12%, 54%, 0.1);
+}
+
+h1 {
+  margin: 0;
+  padding: 0;
+  color: #fff;
+  font-size: 15px;
+  font-weight: 500;
+}
+
+p {
+  color: hsl(216, 12%, 54%);
+  font-size: 10px;
+  font-weight: 400;
+  margin: 0;
+}
+
+#btn {
+  font-family: Overpass;
+  width: 100%;
+  padding: 8px;
+  border-radius: 20px;
+  border: none;
+  outline: none;
+  text-transform: uppercase;
+  font-size: 10px;
+  color: #fff;
+  cursor: pointer;
+  background-color: hsl(25, 97%, 53%);
+  font-weight: 500;
+}
+
+#btn:hover {
+  background-color: #fff;
+  color: hsl(25, 97%, 53%);
+  font-weight: 500;
+}
+
+.rating {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.rating_num {
+  cursor: pointer;
+  padding: 8px;
+  background-color: hsla(216, 12%, 54%, 0.10);
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  color: hsl(216, 12%, 54%);
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  font-weight: 500;
+  font-size: 10px;
+}
+
+.rating_num:hover {
+  color: #fff;
+  background-color: hsl(216, 12%, 54%);
+}
+
+.rating_num:hover {
+  background-color: hsl(216, 12%, 54%);
+  color: #fff;
+}
+
+.rating_num:active,
+.active {
+  background-color: hsl(25, 97%, 53%);
+  color: #fff;
+}
+
+.AppS_main {
+  display: none;
+}
+
+.AppS {
+  background-color: hsl(213, 19%, 18%);
+  height: 220px;
+  width: 220px;
+  border-radius: 20px;
+  padding: 20px;
+  font-family: Overpass;
+  display: flex;
+  flex-direction: column;
+  text-align: center;
+  justify-content: space-between;
+}
+
+.illus {
+  align-self: center;
+  max-width: 120px;
+  height: auto;
+}
+
+.rating_display {
+  background-color: hsla(216, 12%, 54%, 0.1);
+  color: hsl(25, 97%, 53%);
+  font-family: Overpass;
+  font-size: 9px;
+  padding: 6px 10px;
+  margin: 8px 0;
+  border-radius: 20px;
+  align-self: center;
+}
+
+.thanks {
+  padding: 0;
+}
+
+.none {
+  display: none;
+}
+
+.block {
+  display: block;
+}
+
+.attribution {
+  font-size: 11px;
+  text-align: center;
+}
+
+.attribution a {
+  color: hsl(228, 45%, 44%);
 }
